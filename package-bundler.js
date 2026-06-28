@@ -93,6 +93,7 @@ export default async function bundleClient(entryFile, outputFile, buildOptions =
 			"fs",
 			"node:fs",
 			"node:crypto",
+      "node:util",
 		],
 		fileSystemMode: "consume",
 		fsPath: undefined, // assigned via fileSystemMode (usually)
