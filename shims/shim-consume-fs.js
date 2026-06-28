@@ -41,6 +41,7 @@ export const existsSync = fs.existsSync;
 export const mkdirSync = fs.mkdirSync;
 export const readFileSync = fs.readFileSync;
 export const statSync = fs.statSync;
+export const writeFile = fs.writeFile;
 export const writeFileSync = fs.writeFileSync;
 export const promises = fs.promises;
 
